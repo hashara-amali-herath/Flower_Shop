@@ -24,29 +24,29 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color: #333;
+    color: #000000;
     padding:1rem;
     margin: 2rem 0;
-    background: #666;
+    background: #f7bbbb;
     cursor: pointer;
 
 }
 
 .heading:hover{
-    background: black;
-    color: #fff;
+    background: rgb(250, 235, 237);
+    color: #000000;
     transition-delay: 1s;
 }
 
 .heading span{
-    color: #fff;
+    color: #000000;
 }
 
 .btn{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 5rem;
-    background-color: #333;
+    background-color: #161616;
     color: white;
     padding: .9rem 3.5rem;
     cursor: pointer;
@@ -54,7 +54,7 @@ section{
 }
 
 .btn:hover{
-    background: black;
+    background: rgb(241, 41, 84);
 }
 
 header{
@@ -76,17 +76,17 @@ header .logo{
 }
 
 header .logo span{
-    color: rgb(0, 0, 0);
+    color: rgb(250, 44, 79);
 } 
 
 header .navbar a{
     font-size: 2rem;
     padding: 0 1.5rem;
-    color: #666;
+    color: #161616;
 }
 
 header .navbar a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(241, 41, 84);
 }
 
 header .icons{
@@ -98,11 +98,11 @@ header .icons{
 header .icons a{
     font-size: 2rem;
     padding: 0 1.5rem;
-    color: #666;
+    color: #161616;
 }
 
 header .icons a:hover{
-    color:rgb(0, 0, 0);
+    color:rgb(241, 41, 84);
 }
 
 header #toggler {
@@ -253,10 +253,10 @@ header .fa-bars{
 }
 
 .product .box-contsiner .box{
-    flex: 1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem rgb(19, 18, 18);
-    border-radius: .5rem;
-    border: .1rem solid rgb(12, 12, 12);
+    flex: 1 1 35rem;
+    box-shadow: 0 .2rem 1rem rgb(19, 18, 18);
+    border-radius: .3rem;
+    border: .1rem solid rgb(255, 255, 255);
     position: relative;
 
 }
@@ -266,8 +266,8 @@ header .fa-bars{
     top: 1rem left 1rem ;
     padding: .7rem 1rem;
     font-size: 2rem;
-    color: #a83333;
-    background:rgba(255,51,153,85);
+    color: #ffffff;
+    background:#181717;
     z-index: 1;
     border-radius: .5rem;
 }
@@ -306,7 +306,7 @@ header .fa-bars{
     line-height: 5rem;
     font-size: 2rem;
     width:50% ;
-    background: #a83333;
+    background: #ce2c6a;
     color: #fff;
 
 }
@@ -333,7 +333,7 @@ header .fa-bars{
 
 .product .box-contsiner .box .content .price{
     font-size: 2.5rem;
-    color: #a83333;
+    color:#ce2c6a;
     font-weight: bolder;
     padding-top: 1rem;
 
@@ -354,11 +354,11 @@ header .fa-bars{
 
 .review .box-container .box{
     flex: 1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,1);
+    box-shadow: 0 .1rem .5rem rgba(0,0,0,1);
     border-radius: .5rem;
     padding: 3rem 2rem;
     position: relative;
-    border: 1rem solid rgba(0,0,0,1);
+    border: .1rem solid rgb(253, 253, 253);
 
 }
 
@@ -366,18 +366,18 @@ header .fa-bars{
     position: absolute;
     bottom: 3rem; right: 3rem;
     font-size: 6rem;
-    color: #eee;
+    color: #f3ecec;
 
 }
 
 .review .box-container .box .stars i{
-    color: #a83333;
-    font-size: 2rem;
+    color: #ce2c6a;
+    font-size: 1.5rem;
 }
 
 .review .box-container .box .stars p{
     color: #999;
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.5rem;
     padding-top: 2rem;
 
@@ -392,8 +392,8 @@ header .fa-bars{
 }
 
 .review .box-container .box .user img{
-    height: 6rem;
-    width: 6rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     object-fit: cover;
     margin-right: 1rem;
@@ -426,10 +426,10 @@ header .fa-bars{
 
 .contact .row form{
     flex: 1 1 40rem;
-    padding: 1rem 4rem 5rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,1);
-    border: 1rem solid rgba(0,0,0,1);
-    background: #999;
+    padding: 4rem 4rem 5rem;
+    box-shadow: 0 .3rem .5rem rgb(255, 255, 255);
+    border: .3rem solid rgb(255, 255, 255);
+    background: #e6dde0;
     border-radius: .5rem;
     
 }
@@ -447,7 +447,7 @@ header .fa-bars{
 }
 
 .contact .row form .box:focus{
-        border-color: #a83333;
+        border-color:#ce2c6a;
 }
 
 .contact .row form textarea{
@@ -459,7 +459,7 @@ header .fa-bars{
 }
 
 .contact .row form .btn{
-    background-color: #04AA6D;
+    background-color:#ce2c6a;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -519,7 +519,7 @@ header .fa-bars{
 }
 
 .footer .credit span{
-    color: #a83333;
+    color:#ce2c6a;
 }
 
 
